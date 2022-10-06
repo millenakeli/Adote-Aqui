@@ -1,0 +1,142 @@
+    .logo{ width: 250px;
+        margin: 10px;
+        }
+        body{background-color: rgb(0, 78, 83) }
+
+    .menu{width: 100%;
+    text-align:center;
+    padding-top: 30px;
+    border: 3px solid black;
+    display:block; 
+    flex-direction: column;
+    background-color: rgba(34, 229, 255, 0.911);
+    justify-content: space-around;}
+
+    .menu a{color:black;
+    text-decoration: none;
+    font-weight:bolder;
+    margin-right: 100px;
+    font-style: italic;
+    font-size: 30px;}
+    .menu a:hover{color:blue;}  
+.conteudo{margin-top: 100px;
+color: #fff;}
+
+    h1{font-size: 50px;
+    font-style: italic;
+font-weight: 400;}
+
+p{font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;}
+    
+.container{height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+    .border{height: 200px;
+        width: 250px;
+        background: transparent;
+        border-radius: 10px;
+        position:relative ;
+}
+    .border:hover{border-radius:  1px solid #000;}
+        
+    .card{ height: 270px;
+        width: 260px;
+        background: #808080;
+        border-radius: 10px;
+        transition: background 0.8s;
+        overflow: hidden;
+        background: #000;
+        box-shadow: 0 70px 63px -60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative ;
+        cursor: pointer;}
+
+      .Card0{background: url(/img/Felix.png) center center no-repeat;
+    background-size: 300px;}
+    .Card0:hover{background: url(/img/Felix.png) left center no-repeat;
+    background-size: 600px;}
+    .Card0:hover h2{opacity: 1;}
+    .Card0:hover .g{ opacity:1}
+
+        .Card1{background: url(/img/Flora.png) center center no-repeat;
+            background-size: 300px;}
+            .Card1:hover{background: url(/img/Flora.png) left center no-repeat;
+            background-size: 600px;}
+            .Card1:hover h2{opacity: 1;}
+            .Card1:hover .g{ opacity:1}
+
+            .Card2{background: url(/img/Lilo.png) center center no-repeat;
+                background-size: 300px;}
+                .Card2:hover{background: url(/img/Lilo.png) left center no-repeat;
+                background-size: 600px;}
+                .Card2:hover h2{opacity: 1;}
+                .Card2:hover .g{ opacity:1}
+
+            .Card3{background: url(/img/Max.png) center center no-repeat;
+                background-size: 300px;}
+               .Card3:hover{background: url(/img/Max.png) left center no-repeat;
+                background-size: 600px;}
+                .Card3:hover h2{opacity: 1;}
+                .Card3:hover .g{ opacity:1}
+
+                .Card4{background: url(/img/Mel.png) center center no-repeat;
+                    background-size: 300px;}
+                    .Card4:hover{background: url(/img/Mel.png) left center no-repeat;
+                    background-size: 600px;}
+                    .Card4:hover h2{opacity: 1;}
+                    .Card4:hover .g{ opacity:1}
+
+                    .Card5{background: url(/img/Nina.png) center center no-repeat;
+                        background-size: 300px;}
+                        .Card5:hover{background: url(/img/Nina.png) left center no-repeat;
+                        background-size: 600px;}
+                        .Card5:hover h2{opacity: 1;}
+                        .Card5:hover .g{ opacity:1}
+    
+h2{color:#000;
+margin-left: 20px;
+opacity: 0;
+transition : opacity 1s;}
+
+.g{opacity: 0;
+transition: opacity 1s;}
+
+.texto{position: absolute;
+margin-left: 10px;
+color:#000; 
+height: 130px;
+top: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;}
+
+
+.mapsbox{ position:relative;
+    height: 200px;
+width: 300px;
+background: #fff;
+margin-left: 32px;
+}
+
+.mapsbox iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contato{font-size: 18px;
+color: #fff;
+font-style: italic;
+border: 1px solid #000;
+background-color: black;
+width: 30%;
+margin-bottom: 32px;
+margin-top: 20px;}
