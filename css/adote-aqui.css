@@ -59,44 +59,44 @@ font-style: italic;}
         position:relative ;
         cursor: pointer;}
 
-      .Card0{background: url(./img/Felix.png) center center no-repeat;
+      .Card0{background: url(../img/Felix.png) center center no-repeat;
     background-size: 300px;}
-    .Card0:hover{background: url(./img/Felix.png) left center no-repeat;
+    .Card0:hover{background: url(../img/Felix.png) left center no-repeat;
     background-size: 600px;}
     .Card0:hover h2{opacity: 1;}
     .Card0:hover .g{ opacity:1}
 
-        .Card1{background: url(./img/Flora.png) center center no-repeat;
+        .Card1{background: url(../img/Flora.png) center center no-repeat;
             background-size: 300px;}
-            .Card1:hover{background: url(./img/Flora.png) left center no-repeat;
+            .Card1:hover{background: url(../img/Flora.png) left center no-repeat;
             background-size: 600px;}
             .Card1:hover h2{opacity: 1;}
             .Card1:hover .g{ opacity:1}
 
-            .Card2{background: url(./img/Lilo.png) center center no-repeat;
+            .Card2{background: url(../img/Lilo.png) center center no-repeat;
                 background-size: 300px;}
-                .Card2:hover{background: url(./img/Lilo.png) left center no-repeat;
+                .Card2:hover{background: url(../img/Lilo.png) left center no-repeat;
                 background-size: 600px;}
                 .Card2:hover h2{opacity: 1;}
                 .Card2:hover .g{ opacity:1}
 
-            .Card3{background: url(./img/Max.png) center center no-repeat;
+            .Card3{background: url(../img/Max.png) center center no-repeat;
                 background-size: 300px;}
-               .Card3:hover{background: url(./img/Max.png) left center no-repeat;
+               .Card3:hover{background: url(../img/Max.png) left center no-repeat;
                 background-size: 600px;}
                 .Card3:hover h2{opacity: 1;}
                 .Card3:hover .g{ opacity:1}
 
-                .Card4{background: url(./img/Mel.png) center center no-repeat;
+                .Card4{background: url(../img/Mel.png) center center no-repeat;
                     background-size: 300px;}
-                    .Card4:hover{background: url(./img/Mel.png) left center no-repeat;
+                    .Card4:hover{background: url(../img/Mel.png) left center no-repeat;
                     background-size: 600px;}
                     .Card4:hover h2{opacity: 1;}
                     .Card4:hover .g{ opacity:1}
 
-                    .Card5{background: url(./img/Nina.png) center center no-repeat;
+                    .Card5{background: url(../img/Nina.png) center center no-repeat;
                         background-size: 300px;}
-                        .Card5:hover{background: url(./img/Nina.png) left center no-repeat;
+                        .Card5:hover{background: url(../img/Nina.png) left center no-repeat;
                         background-size: 600px;}
                         .Card5:hover h2{opacity: 1;}
                         .Card5:hover .g{ opacity:1}
